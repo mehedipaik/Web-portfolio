@@ -98,6 +98,10 @@ color: #757575;
    max-width: 1140px;
    margin: 0 auto;
  }
+ .main-styles{
+ margin-top: 130px;
+ margin-bottom: 130px;
+ }
  .item-description{
    font-weight: bold;
 
@@ -105,4 +109,22 @@ color: #757575;
  .about-items{
    display: flex;
    justify-content: space-around;
+   
+ }
+ .text-center{
+   text-align: center;
+ }
+ .skills{
+   margin: 50px;
+   /* box-shadow: 0px 6px 50px 0 black; */
+ }
+ .skills-container{
+   display: flex;
+   gap: 24px;
+   
+ }
+ .skill{
+   padding: 30px;
+   box-shadow: 0px 6px 50px 0 gray;
+   border-radius: 5px;
  }
